@@ -14,10 +14,7 @@ var days = today.getTime()-sp.getTime();
  var s =min*60;
 
 
-console.log(" '"+y+ " years' equals to ");
- console.log("--> "+m+ " months ");
- console.log("--> "+ w+ " weeks ")
-console.log("--> "+d+ " days ")
-console.log("--> "+h+ " hours ")
-console.log("--> "+min+ " minutes ")
-console.log("--> "+s+ " secondes");
+console.log(" '"+y+ " years' equals to \n -->" +m+ " months \n --> "
++ w+" weeks \n --> "+d+ " days \n--> "+h+ " hours \n --> "
++min+  " minutes\n --> "+s+ " secondes");
+ 
