@@ -46,6 +46,10 @@ var c=function day(today,dob){
          var dd=31+d ;
    return dd;
    }
+   else if(d<0 && today.getMonth()==2 ){
+    var dd=28+d ;
+return dd;
+}
    else if(d<0){
         var dd=30+d ;
         return dd;
