@@ -1,5 +1,5 @@
 var today= new Date();
- var dob= new Date("09/11/2010");
+ var dob= new Date("11/10/1997");
 var a= function year(today,dob){
     var y= today.getFullYear()-dob.getFullYear();
     var m= today.getMonth()-dob.getMonth();
